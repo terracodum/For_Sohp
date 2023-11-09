@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: black;
+}
+/* hero and headler plase*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainpage {
+    position: relative;
+    width: auto;
+    height: 100vh;
+}
+
+.background_gif {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    
+}
+.header > * {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 7vh 6vw;
+    padding: 8px 10px;
+
+}
+
+.logo {
+    background-color: #515151 ;
+    font-size: 28px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.header a:visited {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*For info*/
+
+.ino {
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+;
+    background-color: black;
+    
+}
+
+.maininfo {
+    margin-top: 6vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 6vh;
+    
+}
+.maininfo p {
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 400;
+    border: 1px solid white;
+    border-radius: 5px;;
+    
+}
+.rand_text {
+    width:70vw;
+
+    margin-bottom:25vh;
+}
