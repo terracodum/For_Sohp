@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: sans-serif;
+    font-family:  'Sverdlovsk' , sans-serif;
 }
 body {
     background-color: #181818;
@@ -77,6 +77,9 @@ body {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
+    margin-right: 10vh;
+    min-width:100px;
+    right:20%;
     position: absolute;
     background-color: black;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -95,7 +98,10 @@ body {
 .dropdown-content a:hover {background-color: #ddd}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.show {
+    display:block;
+    margin-right: 10%;
+}
 
 /*For info*/
 

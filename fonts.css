@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Constantine';
+	src: url('./Fonts/constantin/Constantine.woff2') format('woff2'), url('./Fonts/constantin/Constantine.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Eurofurence';
+	src: url('./Fonts/eurofuence/Eurofurencelight.woff2') format('woff2'), url('./Fonts/eurofuence/Eurofurencelight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FoglihtenNo06';
+	src: url('./Fonts/fog6/FoglihtenNo06.woff2') format('woff2'), url('./Fonts/fog6/FoglihtenNo06.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sverdlovsk';
+	src: url('./Fonts/sverdlovsk/SverdlovskRegular.woff2') format('woff2'), url('./Fonts/sverdlovsk/SverdlovskRegular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
