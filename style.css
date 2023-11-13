@@ -118,17 +118,19 @@ body {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    font-size: calc(1vh+1vw- 9px);
+    border-radius: 10px;
+    font-size: calc(1vh+1vw- 12px);
     text-align: center;
-    width:26vw;
+    width:20vw;
     height: 4vh;
     background-color: #56749C;
     margin:6px;
     color: #E8DDCA;
-    padding: 12px 16px;
+    padding: 12px 0px;
     text-decoration: none;
     display: block;
 }
+
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
@@ -139,42 +141,53 @@ body {
     
 }
 
-/*For info*/
-
-.ino {
-    color: white;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #181818;
-    
-}
-
-.maininfo {
-    margin-top: 6vh;
-    background-color: #181818;
-    color: white;
-    text-align: center;
-    margin-bottom: 6vh;
-    
-}
-.maininfo p {
-    padding: 15px;
-    font-size: 24px;
-    font-weight: 400;
-    border: 1px solid white;
-    border-radius: 5px;;
-    
-}
-.rand_text {
-    width:70vw;
-
-    margin-bottom:25vh;
-}
 /* About autor part */
 .About_autor {
-    height: 1000px;
+    min-height:100vh;
+}
+.Conten {
+    margin-top:30px;
+    margin-bottom: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+}
+.info_aut {
+    padding:20px 15px;
+    border-radius: 10px;
+    flex: 1 1 400px;
+    height: 1080;
+    background-color: #8F7F62;
+}
+.left {
+    width: 25vw;
+    height: 400px;
+    margin-left: 58px;
+    overflow-x: hidden ;
+    overflow-y: scroll;
+
+
+}
+.left h3 {
+    margin:10px 0;
+}
+.right {
+    width: 25vw;
+    height: 400px;
+    overflow-x: hidden ;
+    overflow-y: scroll;
+    margin-right: 58px;
+}
+.an_gif {
+    flex: 0 1 0px
+}
+.autor_gi {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: auto;
 }
 
 /* Form part */
