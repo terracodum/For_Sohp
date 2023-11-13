@@ -14,12 +14,15 @@ body {
 
 .mainpage {
     position: relative;
-    width: auto;
+    object-fit: cover;
     height: 100vh;
 }
 
 .background_gif {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: -1;
     width: 100%;
     height: 100%;
@@ -168,4 +171,18 @@ body {
     width:70vw;
 
     margin-bottom:25vh;
+}
+/* About autor part */
+.About_autor {
+    height: 1000px;
+}
+
+/* Form part */
+.Form {
+    height: 1000px;
+}
+
+/* Creation*/
+.Creation {
+    height:1000px;
 }
