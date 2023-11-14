@@ -1,201 +1,215 @@
-* {
-    margin: 0;
-    font-family:  'Constantine', sans-serif;
-}
-body {
-    height:5000px;
-    background-color: #E8DDCA;
-}
-/* hero and headler plase*/
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.mainpage {
-    position: relative;
-    object-fit: cover;
-    height: 100vh;
-}
-
-.background_gif {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
+@media (orientation: landscape){
+    * {
+        margin: 0;
+        font-family:  'Constantine', sans-serif;
+    }
+    body {
+        height:5000px;
+        background-color: #E8DDCA;
+    }
+    /* hero and headler plase*/
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
     
-}
-.header > * {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    margin: 7vh 6vw;
-    padding: 8px;
-
-}
-.logo {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 10px 15px;
-    background-color: #515151 ;
-    font-size: 28px;
-    border: 1px solid white;
-    border-radius: 5px;
-}
-.header a:visited {
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-}
-.header a {
-    color: green;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/*for dropdown menu */
-
-.dropbtn {
-    position:fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 16px;
-    border-radius: 50%;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    padding:10px;
-}
-
-
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    height: 18px;
-    width: 18px;
-    right: 0%;
-    top:1%;
-    position: fixed;
-    display: flex;
-
-    background-color: #56749C;
-    border-radius: 50%;
-}
-.line {
-    display:block;
-    padding:0;
-    margin:1px;
-    border-radius: 5px;
-    background-color: #E8DDCA;
-    height: 2px;
-    width:15px;
-    top:50%;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    position: fixed;
-    display: none;
+    .mainpage {
+        position: relative;
+        object-fit: cover;
+        height: 100vh;
+    }
     
-    min-width:100px;
-    right:10%;
-    top: 15%;
+    .background_gif {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .header > * {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: 7vh 6vw;
+        padding: 8px;
     
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    border-radius: 10px;
-    font-size: calc(1vh+1vw- 12px);
-    text-align: center;
-    width:20vw;
-    height: 4vh;
-    background-color: #56749C;
-    margin:6px;
-    color: #E8DDCA;
-    padding: 12px 0px;
-    text-decoration: none;
-    display: block;
-}
-
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-    display:block;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 10px 15px;
+        background-color: #515151 ;
+        font-size: 28px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    .header a:visited {
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+    }
+    .header a {
+        color: green;
+        text-decoration: none;
+        cursor: pointer;
+    }
     
+    /*for dropdown menu */
+    
+    .dropbtn {
+        position:fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 16px;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        padding:10px;
+    }
+    
+    
+    
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        height: 18px;
+        width: 18px;
+        right: 0%;
+        top:1%;
+        position: fixed;
+        display: flex;
+    
+        background-color: #56749C;
+        border-radius: 50%;
+    }
+    .line {
+        display:block;
+        padding:0;
+        margin:1px;
+        border-radius: 5px;
+        background-color: #E8DDCA;
+        height: 2px;
+        width:15px;
+        top:50%;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        position: fixed;
+        display: none;
+        
+        min-width:100px;
+        right:10%;
+        top: 15%;
+        
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        border-radius: 10px;
+        font-size: calc(1vh+1vw- 12px);
+        text-align: center;
+        width:20vw;
+        height: 4vh;
+        background-color: #56749C;
+        margin:6px;
+        color: #E8DDCA;
+        padding: 12px 0px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd}
+    
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {
+        display:block;
+        
+    }
+    
+    /* About autor part */
+    .About_autor {
+        min-height:100vh;
+    }
+    .Conten {
+        
+        margin-top:30px;
+        margin-bottom: 30px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 33px;
+    }
+    .info_aut {
+        padding:20px 15px;
+        border-radius: 10px;
+        flex: 1 1 400px;
+        height: 1080;
+        background-color: #8F7F62;
+    }
+    .left {
+        width: 24vw;
+        height: 400px;
+        margin-left: 58px;
+        overflow-x: hidden ;
+        overflow-y: scroll;
+        font-size: 14px;
+    
+    
+    }
+    .left li {
+        margin-bottom:5px;
+    }
+    .left h3 {
+        margin:10px 0;
+    }
+    .right {
+        width: 24vw;
+        height: 400px;
+        overflow-x: hidden ;
+        overflow-y: scroll;
+        margin-right: 58px;
+    }
+    .an_gif {
+        flex: 0 1 0px
+    }
+    .autor_gi {
+        position: relative;
+        overflow: hidden;
+        width: 50vw;
+        height: auto;
+    }
+    
+    /* Form part */
+    .Form {
+        height: 1000px;
+    }
+    
+    /* Creation*/
+    .Creation {
+        height:1000px;
+    }
 }
 
-/* About autor part */
-.About_autor {
-    min-height:100vh;
-}
-.Conten {
-    margin-top:30px;
-    margin-bottom: 30px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 33px;
-}
-.info_aut {
-    padding:20px 15px;
-    border-radius: 10px;
-    flex: 1 1 400px;
-    height: 1080;
-    background-color: #8F7F62;
-}
-.left {
-    width: 25vw;
-    height: 400px;
-    margin-left: 58px;
-    overflow-x: hidden ;
-    overflow-y: scroll;
 
-
-}
-.left h3 {
-    margin:10px 0;
-}
-.right {
-    width: 25vw;
-    height: 400px;
-    overflow-x: hidden ;
-    overflow-y: scroll;
-    margin-right: 58px;
-}
-.an_gif {
-    flex: 0 1 0px
-}
-.autor_gi {
-    position: relative;
-    overflow: hidden;
-    width: 500px;
-    height: auto;
-}
-
-/* Form part */
-.Form {
-    height: 1000px;
-}
-
-/* Creation*/
-.Creation {
-    height:1000px;
+@media (orientation: portrait) {
+    *{
+        display: none;
+    }
 }
