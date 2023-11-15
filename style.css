@@ -4,7 +4,6 @@
     font-family:  'Constantine', sans-serif;
 }
 body {
-    height:5000px;
     background-color: #E8DDCA;
 }
 /* hero and headler plase*/
@@ -190,7 +189,6 @@ body {
     padding:20px 15px;
     border-radius: 10px;
     flex: 1 1 400px;
-    height: 1080;
     background-color: #8F7F62;
 }
 .left {
@@ -220,6 +218,7 @@ body {
     flex: 0 1 0px
 }
 .autor_gi {
+    z-index: -1;
     position: relative;
     overflow: hidden;
     width: 50vw;
@@ -248,11 +247,103 @@ body {
     }
 }
 /* Form part */
-.Form {
-    height: 1000px;
-}
 
+.ogl {
+    margin-left: 3vw;
+}
+.Form {
+}
+.form_cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form_text {
+    padding:20px 15px;
+    border-radius: 10px;
+    background-color: #8F7F62;
+    width: 68vw;
+    height: 200px;
+    overflow-x: hidden ;
+    overflow-y: scroll;
+    margin: 30px 0;
+}
+.form_vid {
+    margin-bottom: 40px;
+}
+.form_vid * {
+    z-index: -1;
+    width:70vw;
+    height: auto;
+}
 /* Creation*/
 .Creation {
-    height:1000px;
+}
+.Creation h2 {
+    margin-bottom:50px;
+}
+
+.cre_cont {
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.cre_block {
+    width: 90vw;
+    display: flex;
+    gap:15vw;
+    
+}
+.cre_img {
+    width: 40vw;
+    height: auto;
+}
+
+.cre_block_text  {
+    padding:10px 20px;
+    margin:30px 0;
+    background-color: #8F7F62;
+    border-radius: 10px ;
+}
+.cre_block_text h3 {
+    font-size: 20px;
+}
+.cre_block_text p {
+    font-size: 15px;
+}
+.lefte {
+    flex-direction: row;
+}
+.righte {
+    flex-direction: row-reverse;
+}
+
+/* style for footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8F7F62;
+}
+.footer p {
+    font-size: 20px;
+    margin: 5vh 0 3vh 0;
+}
+.footer div {
+    margin-bottom: 30px;
+}
+.cop a {
+    color:black;
+    text-decoration: none;
+}
+.cop a:hover {
+    text-decoration: underline;
+}
+.nik {
+
+    font-weight: 600;
+    font-size: 30px;
 }
