@@ -224,6 +224,9 @@ body {
     width: 50vw;
     height: auto;
 }
+
+
+
 @media (orientation: portrait) {
     .Conten {
         flex-direction: column;
@@ -273,8 +276,8 @@ body {
 }
 .form_vid * {
     z-index: -1;
-    width:70vw;
-    height: auto;
+    width:50vw;
+    height: calc(50vw/1.777);
 }
 /* Creation*/
 .Creation {
@@ -346,4 +349,58 @@ body {
 
     font-weight: 600;
     font-size: 30px;
+}
+
+
+
+/* style for scrollbar */
+body::-webkit-scrollbar {
+    width:8px
+
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #c7bdab;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #4b422e ;
+}
+.info_aut::-webkit-scrollbar {
+    width: 6px;
+
+}
+.info_aut::-webkit-scrollbar-thumb {
+    background-color: #c7bdab;
+    border-radius: 0 10px 10px 0;
+}
+.info_aut::-webkit-scrollbar-track {
+    background-color: #4b422e ;
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* Creators*/
+.creators {
+}
+.creators_list {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    
+    border-radius: 10px;
+}
+.creators_list ul {
+    position: relative;
+
+}
+.list {
+    background-color: #8F7F62;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
 }
