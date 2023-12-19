@@ -81,7 +81,7 @@ body {
 .header a:visited {
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: #101010;
 }
 .header a {
     color: green;
