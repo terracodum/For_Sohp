@@ -4,7 +4,8 @@
     font-family:  'Constantine', sans-serif;
 }
 body {
-    background-color: #E8DDCA;
+    color:#999999;
+    background-color: #232323;
 }
 /* hero and headler plase*/
 .header {
@@ -106,9 +107,7 @@ body {
 
 
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-}
+
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -119,7 +118,7 @@ body {
     position: fixed;
     display: flex;
 
-    background-color: #56749C;
+    background-color: #AAA;
     border-radius: 50%;
 }
 .line {
@@ -127,12 +126,21 @@ body {
     padding:0;
     margin:1px;
     border-radius: 5px;
-    background-color: #E8DDCA;
+    background-color: #101010;
     height: 2px;
     width:15px;
     top:50%;
+    transition: 0.2s;
 }
-
+.fir_act {
+    transform: translate(0px,3px) rotate(45deg) scaleX(1.4);
+}
+.sec_act {
+    height:0;
+}
+.thr_act {
+    transform: translate(0px,-3px) rotate(-45deg) scaleX(1.4);
+}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     position: fixed;
@@ -153,9 +161,9 @@ body {
     text-align: center;
     width:20vw;
     height: 4vh;
-    background-color: #56749C;
+    background-color: #AAA;
     margin:6px;
-    color: #E8DDCA;
+    color: #101010  ;
     padding: 12px 0px;
     text-decoration: none;
     display: block;
@@ -189,7 +197,7 @@ body {
     padding:20px 15px;
     border-radius: 0;
     flex: 1 1 400px;
-    background-color: #c3b69b;
+    background-color: #303030;
 }
 .left {
     width: 24vw;
@@ -270,7 +278,7 @@ body {
 .form_text {
     padding:20px 15px;
     border-radius: 0px;
-    background-color: #c3b69b;
+    background-color: #303030;
     width: 68vw;
     height: 200px;
     overflow-x: hidden ;
@@ -316,7 +324,7 @@ body {
 .cre_block_text  {
     padding:10px 20px;
     margin:30px 0;
-    background-color: #c3b69b;
+    background-color: #303030;
     border-radius: 0px ;
     height:30vh;
     overflow-x: hidden ;
@@ -360,7 +368,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #c3b69b;
+    background-color: #303030;
 }
 .footer p {
     font-size: 20px;
@@ -391,22 +399,22 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #c7bdab;
+    background-color: #262626;
     border-radius: 10px;
 }
 body::-webkit-scrollbar-track {
-    background-color: #4b422e ;
+    background-color: #404040 ;
 }
 .info_aut::-webkit-scrollbar {
     width: 6px;
 
 }
 .info_aut::-webkit-scrollbar-thumb {
-    background-color: #c7bdab;
+    background-color: #262626;
     border-radius: 0 10px 10px 0;
 }
 .info_aut::-webkit-scrollbar-track {
-    background-color: #4b422e ;
+    background-color: #404040;
     border-radius: 0 10px 10px 0;
 }
 .form_text::-webkit-scrollbar {
@@ -414,11 +422,11 @@ body::-webkit-scrollbar-track {
 
 }
 .form_text::-webkit-scrollbar-thumb {
-    background-color: #c7bdab;
+    background-color: #262626;
     border-radius: 0 10px 10px 0;
 }
 .form_text::-webkit-scrollbar-track {
-    background-color: #4b422e ;
+    background-color: #404040 ;
     border-radius: 0 10px 10px 0;
 }
 
@@ -427,11 +435,11 @@ body::-webkit-scrollbar-track {
 
 }
 .cre_block_text::-webkit-scrollbar-thumb {
-    background-color: #c7bdab;
+    background-color: #262626;
     border-radius: 0 10px 10px 0;
 }
 .cre_block_text::-webkit-scrollbar-track {
-    background-color: #4b422e ;
+    background-color: #404040 ;
     border-radius: 0 10px 10px 0;
 }
 
@@ -450,7 +458,7 @@ body::-webkit-scrollbar-track {
 
 }
 .list {
-    background-color: #c3b69b;
+    background-color: #303030;
     padding-top:10px;
     padding-bottom: 10px;
     padding-right: 10px;
