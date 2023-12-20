@@ -467,6 +467,10 @@ body::-webkit-scrollbar-track {
     flex-direction: column;
     gap:10px;
 }
+.list .contrib::first-letter {
+    font-size: 28px;
+    color: #BBB
+}
 
 @media (orientation: portrait) {
     .footer p {
