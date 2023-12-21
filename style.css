@@ -1,4 +1,4 @@
-
+* {box-sizing:border-box}
 * {
     margin: 0;
     font-family:  'Constantine', sans-serif;
@@ -488,11 +488,19 @@ body::-webkit-scrollbar-track {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 50vw;
     position: relative;
     margin: auto;
   }
-  
+@media (orientation: landscape){
+    .slideshow-container{ 
+        width: 50vw;
+    }
+}
+@media (orientation: portrait) {
+    .slideshow-container{ 
+        width: 80vw;
+    }
+}
   /* Hide the images by default */
   .mySlides {
     display: none;
