@@ -594,3 +594,9 @@ body::-webkit-scrollbar-track {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+.downlink:visited {
+    margin:10px;
+    text-decoration: none;
+    color:#AAA;
+}
