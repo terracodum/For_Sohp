@@ -322,11 +322,13 @@ body {
 }
 
 .cre_block_text  {
+
+    width:70vw;
     padding:10px 20px;
-    margin:30px 0;
+    margin:30px auto;
     background-color: #303030;
     border-radius: 0px ;
-    height:30vh;
+    height:50vh;
     overflow-x: hidden ;
     overflow-y: scroll;
 }
