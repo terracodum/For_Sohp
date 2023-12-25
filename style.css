@@ -595,8 +595,23 @@ body::-webkit-scrollbar-track {
     to {opacity: 1}
   }
 
+@media (orientation: landscape){
+    .downlink {
+        left: 40%; 
+        position: relative;
+    }
+    
+}
+
 .downlink:visited {
     margin:10px;
     text-decoration: none;
     color:#AAA;
+}
+
+@media (orientation: portrait){
+    .downlink {
+        position: relative;
+        left: 10px;
+    }
 }
